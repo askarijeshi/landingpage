@@ -96,19 +96,72 @@ button {
 
 .grey {
     display:flex;
-    flex-direction:column;
     margin:0px;
+    flex-direction:column;
     background-color:grey;  
     font-size:24px;
-    align-items:space-between;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+
     
 }
 
 .paragraph {
-    width:50%;
+    max-width:600px;
 }
 
 .quote{
-    display:flex;
-    align-items:end
+    text-align:right;
+    max-width:600px;
+    width:100%;
 }
+
+button {
+    display:inline-block;
+    background-color:blue;
+    color:white;
+    width:120px;
+    margin-top:10px;
+    border:none;
+    padding:6px 30px;
+    border-radius: 6px 6px;
+    text-decoration:none;
+    cursor:pointer;
+    outline:none;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.cta{
+    background-color:white;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+
+.content{
+    background-color:mediumblue;
+    display:flex;
+    flex-direction:column;
+    align-items:space-evenly;
+    max-width:900px;
+    height:150px;
+    width:100%;
+    
+
+}
+.cta1{
+    display:flex;
+}
+.tbh {
+    display:flex;
+    flex-direction:row;
+}
+
