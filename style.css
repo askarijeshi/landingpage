@@ -137,7 +137,7 @@ button {
 }
 .cta{
     background-color:white;
-    height:300px;
+    padding:100px 0px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -150,18 +150,25 @@ button {
     background-color:mediumblue;
     display:flex;
     flex-direction:column;
-    align-items:space-evenly;
+    align-items:start;
     max-width:900px;
     height:150px;
     width:100%;
+    padding:20px 90px;
     
 
 }
 .cta1{
     display:flex;
 }
+p.tbh {
+    max-width:5500px;
+
+}
 .tbh {
     display:flex;
     flex-direction:row;
+    gap:95px;
+    width:100%;
 }
 
